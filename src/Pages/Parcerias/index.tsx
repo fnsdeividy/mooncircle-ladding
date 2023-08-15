@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Parcerias = () => {
+const Parcerias = () => {
   return (
     <div>Parcerias</div>
   )
 }
+
+export default Parcerias
