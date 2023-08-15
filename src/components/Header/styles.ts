@@ -3,34 +3,57 @@ import styled from 'styled-components';
 export const AppContainer = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 8vh;
 `;
 
 export const HeaderComponent = styled.header`
-  background-color: #241929;
+  
   color: white;
-  padding: 10px 0;
+ 
   text-align: center;
 `;
 
 export const NavMenu = styled.nav`
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  
+  .Moon {
+    max-width: 128px;
+    max-height: 84px;
+   
+
+  }
+
+  .Logo {
+    max-width: 109px;
+    max-height: 78px;
+
+  }
 `;
 
 export const NavLink = styled.a`
-  color: white;
+  display: flex;
   text-decoration: none;
-  margin: 0 15px;
+  align-items: center;
+  
+  margin: 0 ;
+
+  .Home, .saiba-mais, .parcerias {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    
+   
+  }
 `;
 
 export const MainContent = styled.main``;
 
 export const Footer = styled.footer`
-  background-color: #241929;
+  
   color: white;
   text-align: center;
-  padding: 10px 0;
-  width: 100%;
+  
+  
 `;
