@@ -2,9 +2,12 @@ import styled from "styled-components";
 
 
 export const FooterContaier = styled.footer`
-    display: flex;
-  align-items: center;
-  justify-content: center;
+    position: fixed;
+  bottom: -8rem;
+  left: 0;
+  width: 100%;
+
+  background-color: #241929;
 .pages .header {
     display: none;
   }
@@ -13,8 +16,8 @@ export const FooterContaier = styled.footer`
     position: relative;
     width: 201px;
   height: 52px;
-  top: 100px;
-  left: -140px;
+  top: 23px;
+  left: 26rem;
 
   
 
@@ -47,8 +50,8 @@ export const FooterContaier = styled.footer`
 .pages {
   display: block;
   position: relative;
-  top: 150px;
-  left: 45px;
+  top: -1rem;
+  left: 48rem;
 
 .paginas {
   width: 160px;
@@ -113,8 +116,8 @@ color: #F5F7FA;
 .contato {
     display: block;
   position: relative;
-  top: 150px;
-  left: 45px;
+  top: -7rem;
+  left: 62rem;
 
 .contato-h1 {
   display: block;
@@ -163,12 +166,12 @@ color: #F5F7FA;
 .outras-imagens {
   display: block;
   position: relative;
-  top: 150px;
-  left: 45px;
+  top: -12rem;
+  left: 87rem;
   
 .download {
   width: 239px;
-height: 20px;
+height: 40px;
 font-family: Museo Sans;
 font-size: 20px;
 font-weight: 600;
