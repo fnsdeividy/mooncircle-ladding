@@ -2,13 +2,28 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-display: block;
-position: absolute;
-    top: 84px;
-    left: 16px;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 47vh;
+  margin-left: -600px; 
+  
+  padding: 0;
 
+  .Logo-Home {
+        display: flex;
+        width: 520px;
+        height: 519px;
+        
+        margin-left: 100rem; 
+        margin-top: -27rem;
+        top: 80px;
+        padding: 0;
+    }
 `
+
+
 
 export const Math = styled.div`
     width: Fill (527.47px);
@@ -50,7 +65,7 @@ export const Math = styled.div`
 
     }
 
-    .title {
+    p {
         width: 527.472900390625px;
         height: 120px;
         font-family: Museo Sans;
@@ -77,12 +92,5 @@ export const Confirm = styled.div`
     height: Hug (334.19px);
     gap: 24px;
 
-    .Logo-Home {
-        display: flex;
-        position: absolute;
-        width: 520px;
-        height: 519px;
-        left: 900px;
-        top: 80px;
-    }
+    
 `

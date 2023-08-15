@@ -34,12 +34,12 @@ const Home = () => {
         </p>
         </Math>
         <Confirm>
-          <img className='Logo-Home' src={LogoHome} alt="" />
         <Input  value={name} onChange={handleNameChange} placeholder="Digite seu nome"   />
         <Input  value={email} onChange={handleEmailChange} placeholder="Digite seu email"   />
         <PhoneNumberInput  value={whatsapp} onChange={handleWhatsappChange} placeholder="Digite seu número de WhatsApp"   />
         <ConfirmationButton  onConfirm={handleConfirm} text="Confirmar Inscrição" children={''} />
         </Confirm>
+          <img className='Logo-Home' src={LogoHome} alt="" />
     </Container> 
   )
 }
