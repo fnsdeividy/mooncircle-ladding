@@ -1,59 +1,32 @@
 import styled from 'styled-components';
 
-export const AppContainer = styled.div`
+export const AppContainer = styled.header`
   display: flex;
-  flex-direction: column;
-  min-height: 8vh;
-`;
-
-export const HeaderComponent = styled.header`
-  
-  color: white;
- 
-  text-align: center;
-`;
-
-export const NavMenu = styled.nav`
-  display: flex;
-  justify-content: space-around;
-  
-  .Moon {
-    max-width: 128px;
-    max-height: 84px;
-   
-
-  }
-
-  .Logo {
-    max-width: 109px;
-    max-height: 78px;
-
-  }
-`;
-
-export const NavLink = styled.a`
-  display: flex;
-  text-decoration: none;
   align-items: center;
+  justify-content: center;
   
-  margin: 0 ;
-
-  .Home, .saiba-mais, .parcerias {
-    color: white;
-    text-decoration: none;
-    display: flex;
-    font-size: 16px;
-    
-   
-  }
 `;
 
-export const MainContent = styled.main``;
+export const NavMenu = styled.nav` 
+  display: flex;
+  align-items: center;
 
-export const Footer = styled.footer`
-  
+.Home, .saibamais, .parcerias{
   color: white;
-  text-align: center;
-  
+} 
+`;
+
+
+export const NavLink = styled.div`
+  margin: 0 60px;
+`;
+
+export const Image = styled.img`
+  max-width: 100%;
   
 `;
+
+export const ImageLogo = styled.img`
+  max-width: 100px;
+`;
+
