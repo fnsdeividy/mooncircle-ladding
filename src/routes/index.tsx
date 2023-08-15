@@ -5,6 +5,7 @@ import Home from "../Pages/Home";
 import SaibaMais from "../Pages/SaibaMais";
 import Parcerias from "../Pages/Parcerias";
 import Header from "../components/Header";
+import Footer from "../components/footer";
 
   const RoutesApp = () => {
     return (
@@ -16,6 +17,7 @@ import Header from "../components/Header";
                     <Route path="/saiba-mais" element={<SaibaMais/>}/>
                     <Route path="parcerias" element={<Parcerias />}/>
                 </Routes>
+                <Footer/>
             </Fragment>
         </BrowserRouter>
     )
