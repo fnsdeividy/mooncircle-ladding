@@ -1,30 +1,27 @@
-import React from 'react';
-import { AppContainer, NavMenu, NavLink, Image, ImageLogo } from './styles';
-import { Link } from 'react-router-dom';
-
-import Logo from '../../assets/Logo.png';
-import MoonCircle from '../../assets/MoonCircle.png';
-
-export default function Header() {
+import React from "react";
+import { AppContainer, NavLink, NavMenu } from "./styles";
+import Moon from '../../assets/MoonCircle.png'
+import Logo from '../../assets/Logo.png'
+const Header = () => {
   return (
     <AppContainer>
-      <NavMenu>
-        <Link className='Home' to="/">
-          <Image className='Moon' src={MoonCircle} />
-        </Link>
-        <NavLink>
-          <Link className='Home' to="/">Home</Link>
-        </NavLink>
-        <NavLink>
-          <Link className='saibamais' to="/saiba-mais">Saiba Mais</Link>
-        </NavLink>
-        <NavLink>
-          <Link className='parcerias' to="/parcerias">Parcerias</Link>
-        </NavLink>
-        <Link className='Logo' to="/">
-          <ImageLogo src={Logo} />
-        </Link>
-      </NavMenu>
+      <nav>
+        <NavMenu>
+            <img src={Moon} alt="" />
+          <NavLink>
+            <a className="Home" href="/">Home</a>
+          </NavLink>
+          <NavLink>
+            <a className="saibamais" href="/saiba-mais">Saiba Mais</a>
+          </NavLink>
+          <NavLink>
+            <a className="parcerias" href="/parcerias">Parcerias</a>
+          </NavLink>
+          <img src={Logo} alt="" />
+        </NavMenu>
+      </nav>
     </AppContainer>
   );
 };
+
+export default Header;

@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  background: #241929;
   margin-left: -600px; 
   
   padding: 0;
@@ -26,8 +26,8 @@ export const Container = styled.div`
 
 
 export const Math = styled.div`
-    width: Fill (527.47px);
-    height: Hug (693.19px);
+    width: 527.47px;
+    height: 693.19px;
     gap: 32px;
 
     h1 {
@@ -53,7 +53,7 @@ export const Math = styled.div`
     }
 
     h4 {
-        width: 527.472900390625px;
+        width: 527px;
         height: 152px;
         font-family: Museo Sans;
         font-size: 64px;
@@ -66,18 +66,11 @@ export const Math = styled.div`
     }
 
     p {
-        width: 527.472900390625px;
+        width: 527px;
         height: 120px;
         font-family: Museo Sans;
         font-size: 16px;
         font-weight: 600;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
-
-        font-family: Museo Sans;
-        font-size: 16px;
-        font-weight: 400;
         line-height: 24px;
         letter-spacing: 0em;
         text-align: left;
@@ -88,8 +81,8 @@ export const Math = styled.div`
     
     `
 export const Confirm = styled.div`
-    width: Hug (407.55px);
-    height: Hug (334.19px);
+    width: 407.55px;
+    height: 334.19px;
     gap: 24px;
 
     
