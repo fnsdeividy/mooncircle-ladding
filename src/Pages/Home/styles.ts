@@ -6,19 +6,19 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #241929;
-  margin-left: -600px; 
-  
-  padding: 0;
+  position: relative;
+top  : 1rem; ;
+left: -5rem;
 
   .Logo-Home {
         display: flex;
-        width: 520px;
-        height: 519px;
+        position: relative;
+        width: 400px;
+        height: 400px;
         
-        margin-left: 100rem; 
-        margin-top: -27rem;
-        top: 80px;
+       
+        top: -40rem;
+        left: 30rem;
         padding: 0;
     }
 `
@@ -26,8 +26,7 @@ export const Container = styled.div`
 
 
 export const Math = styled.div`
-    width: 527.47px;
-    height: 693.19px;
+    
     gap: 32px;
 
     h1 {
@@ -37,13 +36,6 @@ export const Math = styled.div`
         font-family: Museo Sans;
         font-size: 20px;
         font-weight: 600;
-        line-height: 26px;
-        letter-spacing: 0.03em;
-        text-align: left;
-
-        font-family: Montserrat;
-        font-size: 20px;
-        font-weight: 400;
         line-height: 26px;
         letter-spacing: 0.03em;
         text-align: left;
