@@ -3,30 +3,32 @@ import styled from "styled-components";
 export const Container = styled.div`
   position: relative;
   width: 100%;
-  background: linear-gradient(-150deg, #241929 65%, #054F77);
   min-height: 92vh; 
-`;
-
-export const MoonCircle = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0rem;
+  position: relative;
 
   img {
-    width: 100%;
-    max-width: 250px;
-    height: auto;
-  
+    width: 750px;
+    height: 750px;
+   display: flex;
+   position: relative;
+  top: -30rem;
   }
 `;
 
+
+
 export const Content = styled.div`
   display: flex;
+  position: relative;
+  top: -25rem;
+  left: -27rem;
   flex-direction: column;
   align-items: center;
- 
   box-sizing: border-box;
+  width: 601px;
+height: 542px;
+
 `;
 
 export const Frame = styled.div`

@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <FooterContaier>
       <div className='Footer-moon'>
-      <img  src={MoonCircle} alt="Footer Imagem" />
+      <img  src={MoonCircle} alt="Footer-Imagem" />
       <p className='copyright'>Copyright<AiOutlineCopyright/>2023</p>
       <p className='direitos'>Todos os direitos reservados</p>
         <AiOutlineInstagram className='instagram'/>

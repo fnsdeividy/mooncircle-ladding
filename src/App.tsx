@@ -1,22 +1,22 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
-import Header from './components/Header';
+import NavBar from './components/NavBar';
 import Footer from './components/footer';
-import Home from './Pages/Home';
-import SaibaMais from './Pages/SaibaMais';
-import Parcerias from './Pages/Parcerias';
+
+import HomePages from './Pages/HomePages';
 
 function App() {
   return (
-   <>
-    <Header />
-      <Home />
-      <SaibaMais />
-      <Parcerias />
+    <div>
+
+      <NavBar />
+      <HomePages />
       <Footer />
-   </>
+
+    </div>
   );
 }
 

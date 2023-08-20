@@ -1,13 +1,11 @@
 import React from 'react'
-import { Container, Content, Frame, MoonCircle } from './styles'
+import { Container, Content, Frame } from './styles'
 import Arte from '../../assets/Arte.png'
 const SaibaMais = () => {
 
   return (
     <Container>
-    <MoonCircle>
       <img src={Arte} alt="" />
-    </MoonCircle>
     <Content>
     <Frame>
         <h1>Vamos nos conhecer melhor?</h1>

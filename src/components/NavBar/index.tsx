@@ -2,7 +2,7 @@ import React from "react";
 import { AppContainer, NavLink, NavMenu } from "./styles";
 import Moon from '../../assets/MoonCircle.png'
 import Logo from '../../assets/Logo.png'
-const Header = () => {
+const NavBar = () => {
   return (
     <AppContainer>
       <nav>
@@ -24,4 +24,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;

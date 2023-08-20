@@ -4,7 +4,6 @@ export const AppContainer = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #241929;
   color: white;
   padding: 20px;
   

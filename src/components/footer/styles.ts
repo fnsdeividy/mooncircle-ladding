@@ -2,22 +2,26 @@ import styled from "styled-components";
 
 
 export const FooterContaier = styled.footer`
-    position: fixed;
-  bottom: -8rem;
-  left: 0;
-  width: 100%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  .Footer-Imagem {
+    width: 119px;
+  height: 96px;
 
-  background-color: #241929;
+  }
+
 .pages .header {
     display: none;
   }
 .Footer-moon {
     display: block;
     position: relative;
-    width: 201px;
+    width: 207px;
   height: 52px;
   top: 23px;
-  left: 26rem;
+  left: 5rem;
 
   
 
@@ -37,21 +41,21 @@ export const FooterContaier = styled.footer`
   .twitter {
     width: 24px;
     height: 24px;
-    padding: 2.9998321533203125px 0.75px 3.000112533569336px 0.75px;
+    padding: 3px 0.75px 3px 0.75px;
     color: white;
   }
   .youtube {
     width: 24px;
   height: 24px;
-  padding: 3px 0.0016617532819509506px 2.99951171875px 0.0013652089983224869px;
+  padding: 3px 0.002px 3px 0.002px;
   color: white;
   }
 }
 .pages {
   display: block;
   position: relative;
-  top: -1rem;
-  left: 48rem;
+  top: 7rem;
+  left: 10rem;
 
 .paginas {
   width: 160px;
@@ -116,8 +120,8 @@ color: #F5F7FA;
 .contato {
     display: block;
   position: relative;
-  top: -7rem;
-  left: 62rem;
+  top: 7rem;
+  left: 15rem;
 
 .contato-h1 {
   display: block;
@@ -166,8 +170,8 @@ color: #F5F7FA;
 .outras-imagens {
   display: block;
   position: relative;
-  top: -12rem;
-  left: 87rem;
+  top: 7rem;
+  left: 17rem;
   
 .download {
   width: 239px;
@@ -187,18 +191,15 @@ height: 53px;
 gap: 32px;
 
 .image-1 {
-  width: 181.00000447034745px;
-height: 53.000000655650865px;
+  width: 181px;
+height: 53px;
 padding: 5px;
 }
 .image-2 {
-  width: 181.00000447034745px;
-height: 53.000000655650865px;
+  width: 181px;
+height: 53px;
 padding: 5px;
-
-
-}
-}
+}}
 
 } 
 `
