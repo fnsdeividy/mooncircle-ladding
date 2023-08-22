@@ -36,7 +36,7 @@ export const LinksContainer = styled.div`
   gap: 20px;
   
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: initial;
     align-items: center;
   }
 `;
