@@ -1,5 +1,5 @@
 import React from 'react';
-import { FooterContainer, FooterImage, FooterLink, FooterSection, FooterTitle } from './styles';
+import { FooterContainer } from './styles';
 import {AiOutlineInstagram, AiFillYoutube,  AiOutlineTwitter} from 'react-icons/ai'
 import MoonCircle from '../../assets/MoonCircle.png'
 import Imagem1 from '../../assets/image 1.png'
@@ -8,7 +8,7 @@ import Imagem2 from '../../assets/image 2.png'
 const Footer = () => {
   return (
     <FooterContainer>
-    <FooterSection>
+    <div className='FooterSectionOne'>
       <img src={MoonCircle} alt="Footer-Imagem" />
       <p>Copyright &copy; 2023  </p>
       <p> 2023 Todos os direitos reservados</p>
@@ -18,27 +18,29 @@ const Footer = () => {
         <AiOutlineTwitter className='img'/>
         <AiFillYoutube className='img'/>
       </div>
-    </FooterSection>
+    </div>
     
-    <FooterSection>
-      <FooterTitle>Páginas</FooterTitle>
-      <FooterLink href="/">Home</FooterLink>
-      <FooterLink href="/saiba-mais">Saiba Mais</FooterLink>
-      <FooterLink href="/parcerias">Parcerias</FooterLink>
-      <FooterLink href="#a">Blog</FooterLink>
-    </FooterSection>
+    <div className='FooterSectionTwo'>
+      <h1 className='FooterTitleTwo'>Páginas</h1>
+      <a className='FooterLink' href="/">Home</a>
+      <a className='FooterLink' href="/saiba-mais">Saiba Mais</a>
+      <a className='FooterLink' href="/parcerias">Parcerias</a>
+      <a className='FooterLink' href="#a">Blog</a>
+    </div>
 
-    <FooterSection>
-      <FooterTitle>Contato</FooterTitle>
-      <p>moon@mooncircle</p>
-      <p>(00)000000000</p>
-    </FooterSection>
+    <div className='FooterSectionTree'>
+      <h1 className='FooterTitleTree'>Contato</h1>
+      <p className='email'>moon@mooncircle</p>
+      <p className='number'>(00)000000000</p>
+    </div>
     
-    <FooterSection>
-      <FooterTitle>Em breve para download:</FooterTitle>
-      <FooterImage src={Imagem1} alt="Imagem 1" />
-      <FooterImage src={Imagem2} alt="Imagem 2" />
-    </FooterSection>
+    <div className='FooterSectionFour'>
+      <h1 className='FooterTitleFour'>Em breve para download:</h1>
+      <div className='FooterImage'>
+      <img  src={Imagem1} alt="Imagem 1" />
+      <img  src={Imagem2} alt="Imagem 2" />
+      </div>
+    </div>
   </FooterContainer>
   );
 };

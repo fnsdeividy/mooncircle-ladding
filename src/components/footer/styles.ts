@@ -1,29 +1,74 @@
 import { styled } from "styled-components";
-const mobileBreakpoint = "600px";
+const mobileBreakpoint = "500px";
 
 export const FooterContainer = styled.footer`
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  @media (max-width: ${mobileBreakpoint}) {
-    flex-direction: column; 
-    align-items: center; 
-  }
-
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  color: white;
   p {
     color: white;
   }
-`;
 
-export const FooterSection = styled.div`
+
+  .FooterSectionOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContainerIMG {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.FooterTitleTwo,
+.FooterTitleTree,
+.FooterTitleFour {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.FooterLink {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.email,
+.number {
+  margin-top: 10px;
+}
+
+.FooterImage {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+@media (max-width: ${mobileBreakpoint}) {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  top: 62rem;
+  left: 2rem;
+  p {
+    color: white;
+  }
+
+
+.FooterSectionOne{
   
   display: flex;
     align-items: center;
     flex-wrap: wrap;
   flex-direction: initial;
-  @media (max-width: ${mobileBreakpoint}) {
-    margin-bottom: 20px; 
-  }
+  position: relative;
+  left: 1rem;
+  
   .ContainerIMG {
     width: 104px;
 height: 24px;
@@ -43,31 +88,75 @@ padding: 1.5px;
     height: 31px;
   }
 
-`;
+}
 
-export const FooterTitle = styled.h1`
-  font-size: 18px;
-  width: 370px;
-    height: 31px;
-gap: 14px;
+.FooterSectionTwo {
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  flex-direction: initial;
+  position: relative;
+  left: -22rem;
+  top: 13.5rem;
+}
+.FooterTitleTwo {
   color: white;
-`;
+}
 
-export const FooterLink = styled.a`
-  text-decoration: none;
-  margin-bottom: 5px;
-  color: white;
-  text-decoration: none;
-  width: 361px;
-height: 24px;
+.FooterSectionTree {
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1rem;
+    flex-direction: initial;
+    position: relative;
+    left: -44.5rem;
+    top: 25.5rem;
 
-  &:hover {
-    text-decoration: underline;
+  .email {
+    display: flex;
+    position: relative;
+    top: -2rem;
   }
-`;
 
-export const FooterImage = styled.img`
+  .number {
+    display: flex;
+    position: relative;
+    top: -4.5rem;
+  }
+  }
 
-  max-width: 100px;
-  margin-top: 10px;
+  .FooterTitleTree {
+    color: white;
+  }
+
+.FooterSectionFour {
+  display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    line-height: 1rem;
+    flex-direction: initial;
+    position: relative;
+    left: -52.5rem;
+    top: 30.5rem;
+}
+   .FooterTitleFour {
+    color: white;
+    font-size: 19px;
+    width: 238px;
+    display: flex;
+    position: relative;
+    top: -6rem;
+    left: 17.5rem;
+   }
+    .FooterImage {
+      display: grid;
+    grid-gap: 5px;
+      position: relative;
+      top: -6rem;
+    left: 18rem;
+   
+            }
+          }
+
 `;
