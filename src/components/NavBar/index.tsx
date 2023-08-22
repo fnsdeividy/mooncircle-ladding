@@ -7,7 +7,7 @@ const NavBar = () => {
     <AppContainer>
       <nav>
         <NavMenu>
-            <img src={Moon} alt="" />
+            <img className="Moon" src={Moon} alt="" />
             <LinksContainer>
           <NavLink>
             <a className="Home" href="/">Home</a>
@@ -19,7 +19,7 @@ const NavBar = () => {
             <a className="parcerias" href="/parcerias">Parcerias</a>
           </NavLink>
         </LinksContainer>
-          <img src={Logo} alt="" />
+          <img className="Logo" src={Logo} alt="" />
         </NavMenu>
       </nav>
     </AppContainer>

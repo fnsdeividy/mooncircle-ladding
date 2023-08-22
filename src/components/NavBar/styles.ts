@@ -14,6 +14,17 @@ export const NavMenu = styled.nav`
   align-items: center;
   flex-wrap: wrap;
 
+  .Moon {
+    width: 128px;
+height: 84px;
+
+  }
+  .logo {
+    width: 128px;
+height: 84px;
+
+  }
+
 .Home, .saibamais, .parcerias{
   color: white;
   text-decoration: none;
@@ -38,6 +49,7 @@ export const NavLink = styled.div`
 
 export const ImageLogo = styled.img`
   max-width: 100px;
+  padding: 100px 10px;
 `;
 
 
