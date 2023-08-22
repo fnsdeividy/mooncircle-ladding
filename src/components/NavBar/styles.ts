@@ -13,7 +13,16 @@ export const NavMenu = styled.nav`
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  @media (max-width: 600px) {
+    .Moon {
+    display: none;
+  }
+  .logo {
+    width: 128px;
+height: 84px;
 
+  }
+  }
   .Moon {
     width: 128px;
 height: 84px;
