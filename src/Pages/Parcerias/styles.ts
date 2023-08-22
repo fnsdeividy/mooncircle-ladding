@@ -1,12 +1,13 @@
 import styled from "styled-components";
-
 const mobileBreakpoint = "600px";
-
 export const ContainerParcerias = styled.div`
-display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+    display: flex;
+    position: relative;
+    top: 8rem;
+    left: -8rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
   .ContainerText{
     display: flex;
     position: relative;
@@ -16,7 +17,7 @@ display: flex;
    display: flex;
    position: relative;
    top: -70rem;
-   left: 100rem;
+   left: 119rem;
     width: 17pc;
     font-family: Museo Sans;
     font-size: 36px;
@@ -30,7 +31,7 @@ display: flex;
     width: 390px;
     height: 24px;
     font-family: Museo Sans;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
@@ -38,13 +39,14 @@ display: flex;
     color: white;
     display: flex;
     position: relative;
-    top: -70rem;
-    left: 97.5rem
+    top: -67rem;
+    left: 98.5rem;
   }
   .ContainerImages {
     display: flex;
     left: 60rem;
     top: -59rem;
+    gap: 35px;
     position: relative;
     flex-direction: initial;
     justify-content: center;
@@ -67,13 +69,11 @@ height: 200px;
     width: 200px;
 height: 200px;
   }
-
   .ContainerTexts {
     display: flex;
    position: relative;
    top: -10rem;
    left: -46rem;
-
     h1 {
       width: 481px;
     height: 77px;
@@ -89,7 +89,6 @@ height: 200px;
     top: -36rem;
     left: 78rem;
     }
-
     p {
       width: 431px;
     height: 80px;
@@ -112,13 +111,11 @@ height: 200px;
    top: -10rem;
     left: -55rem;
     gap: 16px;
-
     .PrimeiroInput {
       display: flex;
       position: relative;
       top: -24rem;
       left: 30rem;
-
     }
     .SegundoInput {
       display: flex;
@@ -134,7 +131,6 @@ border-radius: 100px;
 gap: 10px;
 background: #641978;
 box-shadow: 0px 10px 100px 0px #00000040;
-
 p {
   width: 154px;
 height: 32px;
@@ -145,16 +141,14 @@ line-height: 32px;
 letter-spacing: 0em;
 text-align: left;
 color: #FFFFFF;
-
 }
-
 .ImageGrafismo {
   width: 470px;
     height: 470px;
     display: flex;
     position: relative;
     top: -25rem;
-    left: -38rem;
+    left: -31rem;
   }
     }
     .ButtonForm {
@@ -162,16 +156,12 @@ color: #FFFFFF;
       position: relative;
       left: -3rem;
     top: -16rem;
-
   }
-
-  
  .containerprojetos {
   .Parceiroh3 {
-    width: 424px;
-    height: 2px;
+    width: 500px;
     font-family: Museo Sans;
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0em;
@@ -179,11 +169,10 @@ color: #FFFFFF;
     color: white;
     display: flex;
     position: relative;
-    top: 6rem;
-    left: -38rem;
-
+    top: -8rem;
+    left: -33rem;
+}
   }
-
   .email {
     width: 34rem;
     height: 38px;
@@ -196,24 +185,31 @@ color: #FFFFFF;
     color: white;
     display: flex;
     position: relative;
-    top: 10rem;
-    left: -42rem;
-
-
+    top: -7rem;
+    left: -35rem;
   }
  }
-}
 @media (max-width: ${mobileBreakpoint}) {
+  display: flex;
+    position: relative;
+    top: 58rem;
+    left: -0.5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
   .ContainerText{
     display: flex;
     position: relative;
+    top: 1rem;
+    left: 1rem;
   }
 
   .TextParceiros {
     display: flex;
     position: relative;
     top: -69rem;
-    left: 82.7rem;
+    left: 80.7rem;
     width: 21pc;
     font-family: Museo Sans;
     font-size: 39px;
@@ -236,12 +232,13 @@ color: #FFFFFF;
     display: flex;
     position: relative;
     top: -65.5rem;
-    left: 61.5rem;
+    left: 59.3rem;
   }
   .ContainerImages {
     display: flex;
-    left: 41.5rem;
+    left: 40.5rem;
     top: -59rem;
+    gap: 5px;
     position: relative;
     flex-direction: initial;
     justify-content: center;
@@ -272,7 +269,7 @@ height: 75px;
    left: -46rem;
 
     h1 {
-      width: 254px;
+      width: 304px;
     height: 77px;
     font-family: Museo Sans;
     font-size: 26px;
@@ -284,13 +281,13 @@ height: 75px;
     display: flex;
     position: relative;
     top: -43rem;
-    left: 71rem;
+    left: 67.9rem;
 
 
     }
 
     p {
-      width: 400px;
+      width: 300px;
     height: 80px;
     font-family: Inter;
     font-size: 23px;
@@ -301,15 +298,15 @@ height: 75px;
     color: white;
     display: flex;
     position: relative;
-    top: -31.5rem;
-    left: 50.5rem;
+    top: -33.5rem;
+    left: 49.15rem;
     }
   }
   .ContainerInput {
     display: flex;
    position: relative;
-   top: -10rem;
-    left: -55rem;
+   top: -5rem;
+    left: -52.1rem;
     gap: 16px;
 
     .PrimeiroInput {
@@ -399,7 +396,5 @@ color: #FFFFFF;
   }
  }
   }}
-
-
 
 `

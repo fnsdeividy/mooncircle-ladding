@@ -57,34 +57,33 @@ left: -5rem;
     }
 }
 .Confirm{
-    width: 407.55px;
-    height: 334.19px;
+    width: 226.55px;
+    height: 83.19px;
     .ContainerButton {
         display: flex;
     position: relative;
-        button {
-      width: 223px;
+    button {
+        width: 223px;
     height: 50px;
-    padding: 6px 0px 8px 29px;
-border-radius: 100px;
-gap: 10px;
-background: #641978;
-box-shadow: 0px 10px 100px 0px #00000040;
-}
-.confirmP {
-    width: 210px;
-height: 34px;
-font-family: Museo Sans;
-font-size: 20px;
-font-weight: 600;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
-color: #FFFFFF;
+    padding: 8px 0px 8px 24px;
+    border-radius: 100px;
+    gap: 10px;
+    background: #641978;
+
+p {
+    width: 166px;
+    height: 32px;
+    font-family: Museo Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
 }
     }
 } 
-
+}
 @media (max-width: ${mobileBreakpoint}) {
     display: flex;
   flex-direction: column;
@@ -165,29 +164,29 @@ left: -5rem;
     .ContainerButton {
         display: flex;
     position: relative;
-    left: 10.5rem;
-    top: 8.5rem;
-        button {
-      width: 223px;
+    top: 9rem;
+    left: 10.6rem;
+    button {
+        width: 223px;
     height: 50px;
-    padding: 6px 0px 8px 29px;
-border-radius: 100px;
-gap: 10px;
-background: #641978;
-box-shadow: 0px 10px 100px 0px #00000040;
-}
-.confirmP {
-    width: 210px;
-height: 34px;
-font-family: Museo Sans;
-font-size: 20px;
-font-weight: 600;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
-color: #FFFFFF;
+    padding: 8px 0px 8px 24px;
+    border-radius: 100px;
+    gap: 10px;
+    background: #641978;
+
+p {
+    width: 178px;
+    height: 32px;
+    font-family: Museo Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
 }
     }
+} 
 } 
 
 }
