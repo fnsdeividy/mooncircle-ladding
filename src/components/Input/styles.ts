@@ -7,7 +7,7 @@ export const StyledInputWrapper = styled.div`
 export const StyledLabel = styled.label`
   display: block;
   margin-bottom: 5px;
-  color: black; /* Cor do texto do label */
+  color: black; 
 `;
 
 export const StyledInput = styled.input`
@@ -15,10 +15,20 @@ export const StyledInput = styled.input`
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background-color: white; /* Cor do fundo do campo de entrada */
-  color: black; /* Cor do texto do campo de entrada */
+  background-color: white; 
+  color: black;
 
   ::placeholder {
-    color: #777; /* Cor do placeholder */
+    color: #777; 
   }
 `;
+
+export const InputComponent = styled.input`
+width: 260.55px;
+height: 50.4px;
+padding: 10px 23px 10px 23px;
+border-radius: 8px;
+border: 0.5px;
+gap: 10px;
+
+`

@@ -1,5 +1,5 @@
 import React, { ChangeEvent } from 'react';
-import { StyledInput, StyledInputWrapper } from './styles';
+import { InputComponent, StyledInputWrapper } from './styles';
 
 interface InputProps {
   value: string;
@@ -10,7 +10,7 @@ interface InputProps {
 const Input: React.FC<InputProps> = ({ value, onChange, placeholder }) => (
   <StyledInputWrapper>
    
-    <StyledInput
+    <InputComponent
       type="text"
       id={placeholder}
       name={placeholder}
@@ -38,7 +38,7 @@ const PhoneNumberInput: React.FC<PhoneNumberInputProps> = ({ value, onChange }) 
 
   return (
     <StyledInputWrapper>
-      <StyledInput
+      <InputComponent
         type="tel"
         id="phone"
         name="phone"
@@ -52,6 +52,52 @@ const PhoneNumberInput: React.FC<PhoneNumberInputProps> = ({ value, onChange }) 
   );
 };
 
+interface InputEstaProps {
+  placeholder: string;
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void
+  value: string;
+}
+
+const InputNomeEstabelecimento: React.FC<InputEstaProps> = ({ placeholder, onChange,value }) => {
+  return (
+    <StyledInputWrapper>
+      
+      <InputComponent
+        type="text"
+        value={value}
+        id="nomeEstabelecimento"
+        placeholder='Nome do estabelecimento'
+        onChange={onChange}
+      />
+    </StyledInputWrapper>
+  );
+};
 
 
-export { Input , PhoneNumberInput};
+
+interface PropsInput {
+  placeholder: string;
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void
+  value: string
+}
+
+const InputNomeInstagram: React.FC<PropsInput> = ({ placeholder, onChange }) => {
+  return (
+    <StyledInputWrapper>
+      
+      <InputComponent
+        type="text"
+        id="nomeInstagram"
+        placeholder='Instagram'
+        onChange={onChange}
+      />
+    </StyledInputWrapper>
+  );
+};
+
+
+
+
+
+
+export { Input , PhoneNumberInput, InputNomeEstabelecimento, InputNomeInstagram};

@@ -1,18 +1,14 @@
 * {
-  padding: 0;
   margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
   font-family: 'Roboto', sans-serif;
   border: none;
   
 }
 
-body {
-  background: linear-gradient(-150deg, #241929 65%, #054F77);
 
-  width: 100vw;
-        height: 100vw;
-}
 
 
 
