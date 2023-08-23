@@ -44,8 +44,8 @@ export const ContainerParcerias = styled.div`
   }
   .ContainerImages {
     display: flex;
-    left: 60rem;
-    top: -59rem;
+    left: 57.5rem;
+    top: -57rem;
     gap: 35px;
     position: relative;
     flex-direction: initial;
@@ -73,7 +73,7 @@ height: 200px;
     display: flex;
    position: relative;
    top: -10rem;
-   left: -46rem;
+   left: -47rem;
     h1 {
       width: 481px;
     height: 77px;
@@ -148,7 +148,7 @@ color: #FFFFFF;
     display: flex;
     position: relative;
     top: -25rem;
-    left: -31rem;
+    left: -38rem;
   }
     }
     .ButtonForm {
@@ -169,8 +169,8 @@ color: #FFFFFF;
     color: white;
     display: flex;
     position: relative;
-    top: -8rem;
-    left: -33rem;
+    top: -6rem;
+    left: -38rem;
 }
   }
   .email {
@@ -185,8 +185,8 @@ color: #FFFFFF;
     color: white;
     display: flex;
     position: relative;
-    top: -7rem;
-    left: -35rem;
+    top: -5rem;
+    left: -40rem;
   }
  }
 @media (max-width: ${mobileBreakpoint}) {

@@ -7,8 +7,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-top  : 1rem; ;
-left: -5rem;
+    top: 1rem;
+    left: -9rem;
 
   .Logo-Home {
         display: flex;
@@ -56,12 +56,20 @@ left: -5rem;
         color: #FFFFFF;
     }
 }
+.Input {
+    display: grid;
+    position: relative;
+    left: -5rem;
+    top: -2rem;
+}
 .Confirm{
     width: 226.55px;
     height: 83.19px;
     .ContainerButton {
         display: flex;
     position: relative;
+    top: -1rem;
+    left: -5rem;
     button {
         width: 223px;
     height: 50px;
@@ -71,7 +79,7 @@ left: -5rem;
     background: #641978;
 
 p {
-    width: 166px;
+    width: 175px;
     height: 32px;
     font-family: Museo Sans;
     font-size: 20px;

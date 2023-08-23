@@ -14,14 +14,14 @@ export const Container = styled.div`
    display: flex;
    position: relative;
    top: -25rem;
-  left: -22rem;
+   left: -17rem;
   }
 
   .Content {
     display: flex;
   position: relative;
   top: -56rem;
-  left: -10rem;
+  left: -9rem;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
