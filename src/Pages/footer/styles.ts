@@ -52,7 +52,7 @@ export const FooterContainer = styled.footer`
     justify-content: space-between;
     padding: 20px;
     position: relative;
-    top: 62rem;
+    top: 67rem;
     left: 2rem;
     p {
       color: white;

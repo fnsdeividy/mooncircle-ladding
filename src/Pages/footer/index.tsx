@@ -8,6 +8,7 @@ import {
 import MoonCircle from '../../assets/MoonCircle.png'
 import Imagem1 from '../../assets/image 1.png'
 import Imagem2 from '../../assets/image 2.png'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -26,18 +27,18 @@ const Footer = () => {
 
       <div className="FooterSectionTwo">
         <h1 className="FooterTitleTwo">Páginas</h1>
-        <a className="FooterLink" href="/">
-          Home
-        </a>
-        <a className="FooterLink" href="/saiba-mais">
-          Saiba Mais
-        </a>
-        <a className="FooterLink" href="/parcerias">
-          Parcerias
-        </a>
-        <a className="FooterLink" href="#a">
-          Blog
-        </a>
+        <Link className="FooterLink" to="/">
+          <p>Home</p>
+        </Link>
+        <Link className="FooterLink" to="/saiba-mais">
+          <p>Saiba Mais</p>
+        </Link>
+        <Link className="FooterLink" to="/parcerias">
+          <p>Parcerias</p>
+        </Link>
+        <Link className="FooterLink" to="/blog">
+          <p>Blog</p>
+        </Link>
       </div>
 
       <div className="FooterSectionTree">
