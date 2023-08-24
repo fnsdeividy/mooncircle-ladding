@@ -49,7 +49,7 @@ export const NavLink = styled.div`
 
   @media (max-width: 768px) {
     button {
-      padding: 0.5rem 1rem;
+      padding: 1.5px 1.5rem;
       font-size: 14px;
     }
   }

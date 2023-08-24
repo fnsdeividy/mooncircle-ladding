@@ -25,17 +25,11 @@ const NavBar: FunctionComponent<NavBarProps> = ({ scrollToSection }) => {
               <button onClick={() => scrollToSection('home')}>
                 <p className="Home">Home</p>
               </button>
-              <button
-                className="saibamais"
-                onClick={() => scrollToSection('saiba-mais')}
-              >
-                Saiba Mais
+              <button onClick={() => scrollToSection('saiba-mais')}>
+                <p className="SaibaMais">Saiba Mais</p>
               </button>
-              <button
-                className="parcerias"
-                onClick={() => scrollToSection('parcerias')}
-              >
-                Parcerias
+              <button onClick={() => scrollToSection('parcerias')}>
+                <p className="parcerias">parcerias</p>
               </button>
             </NavLink>
           </LinksContainer>
