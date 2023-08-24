@@ -1,15 +1,14 @@
-import React, { ChangeEvent } from 'react';
-import { InputComponent, StyledInputWrapper } from './styles';
+import React, { ChangeEvent } from 'react'
+import { InputComponent, StyledInputWrapper } from './styles'
 
 interface InputProps {
-  value: string;
-  onChange: (event: ChangeEvent<HTMLInputElement>) => void;
-  placeholder: string;
+  value: string
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void
+  placeholder: string
 }
 
 const Input: React.FC<InputProps> = ({ value, onChange, placeholder }) => (
   <StyledInputWrapper>
-   
     <InputComponent
       type="text"
       id={placeholder}
@@ -20,21 +19,22 @@ const Input: React.FC<InputProps> = ({ value, onChange, placeholder }) => (
       placeholder={placeholder}
     />
   </StyledInputWrapper>
-);
+)
 
 interface PhoneNumberInputProps {
-  value: string;
-  onChange: (event: ChangeEvent<HTMLInputElement>) => void;
-  placeholder: string;
+  value: string
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void
+  placeholder: string
 }
 
-
-
-const PhoneNumberInput: React.FC<PhoneNumberInputProps> = ({ value, onChange }) => {
+const PhoneNumberInput: React.FC<PhoneNumberInputProps> = ({
+  value,
+  onChange,
+}) => {
   const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const inputValue = e.target.value.replace(/\D/g, ''); 
-    onChange({ ...e, target: { ...e.target, value: inputValue } });
-  };
+    const inputValue = e.target.value.replace(/\D/g, '')
+    onChange({ ...e, target: { ...e.target, value: inputValue } })
+  }
 
   return (
     <StyledInputWrapper>
@@ -49,55 +49,53 @@ const PhoneNumberInput: React.FC<PhoneNumberInputProps> = ({ value, onChange }) 
         pattern="[0-9]{10,15}"
       />
     </StyledInputWrapper>
-  );
-};
-
-interface InputEstaProps {
-  placeholder: string;
-  onChange: (event: ChangeEvent<HTMLInputElement>) => void
-  value: string;
+  )
 }
 
-const InputNomeEstabelecimento: React.FC<InputEstaProps> = ({ placeholder, onChange,value }) => {
-  return (
-    <StyledInputWrapper>
-      
-      <InputComponent
-        type="text"
-        value={value}
-        id="nomeEstabelecimento"
-        placeholder='Nome do estabelecimento'
-        onChange={onChange}
-      />
-    </StyledInputWrapper>
-  );
-};
-
-
-
-interface PropsInput {
-  placeholder: string;
+interface InputEstaProps {
+  placeholder: string
   onChange: (event: ChangeEvent<HTMLInputElement>) => void
   value: string
 }
 
-const InputNomeInstagram: React.FC<PropsInput> = ({ placeholder, onChange }) => {
+const InputNomeEstabelecimento: React.FC<InputEstaProps> = ({
+  placeholder,
+  onChange,
+  value,
+}) => {
   return (
     <StyledInputWrapper>
-      
       <InputComponent
         type="text"
-        id="nomeInstagram"
-        placeholder='Instagram'
+        value={value}
+        id="nomeEstabelecimento"
+        placeholder="Nome do estabelecimento"
         onChange={onChange}
       />
     </StyledInputWrapper>
-  );
-};
+  )
+}
 
+interface PropsInput {
+  placeholder: string
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void
+  value: string
+}
 
+const InputNomeInstagram: React.FC<PropsInput> = ({
+  placeholder,
+  onChange,
+}) => {
+  return (
+    <StyledInputWrapper>
+      <InputComponent
+        type="text"
+        id="nomeInstagram"
+        placeholder="Instagram"
+        onChange={onChange}
+      />
+    </StyledInputWrapper>
+  )
+}
 
-
-
-
-export { Input , PhoneNumberInput, InputNomeEstabelecimento, InputNomeInstagram};
+export { Input, PhoneNumberInput, InputNomeEstabelecimento, InputNomeInstagram }
