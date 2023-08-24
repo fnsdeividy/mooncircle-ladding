@@ -70,28 +70,10 @@ export const Container = styled.div`
     position: relative;
     top: -1rem;
     left: -5rem;
-    button {
-        width: 223px;
-    height: 50px;
-    padding: 8px 0px 8px 24px;
-    border-radius: 100px;
-    gap: 10px;
-    background: #641978;
-
-p {
-    width: 175px;
-    height: 32px;
-    font-family: Museo Sans;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-}
+    
     }
 } 
-}
+
 @media (max-width: ${mobileBreakpoint}) {
     display: flex;
   flex-direction: column;
@@ -174,28 +156,10 @@ left: -5rem;
     position: relative;
     top: 9rem;
     left: 10.6rem;
-    button {
-        width: 223px;
-    height: 50px;
-    padding: 8px 0px 8px 24px;
-    border-radius: 100px;
-    gap: 10px;
-    background: #641978;
-
-p {
-    width: 178px;
-    height: 32px;
-    font-family: Museo Sans;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-}
+   
     }
 } 
 } 
 
-}
+
 `

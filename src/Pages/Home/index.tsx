@@ -3,6 +3,7 @@ import { Container } from './styles'
 
 import {Input, PhoneNumberInput} from '../../components/Input'
 import LogoHome from '../../assets/LogoHome.png'
+import { Button } from '../../components/Button'
 const Home = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -36,9 +37,7 @@ const Home = () => {
         </div>
         <div className='Confirm'>
         <div className='ContainerButton'>
-        <button>
-          <p className='confirm'>Confirmar inscrição</p>
-      </button>
+        <Button confirmText="Confirmar inscrição" />
       </div>
         </div>
           <img className='Logo-Home' src={LogoHome} alt="" />
