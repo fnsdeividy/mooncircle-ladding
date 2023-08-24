@@ -85,8 +85,8 @@ export const Container = styled.div`
       display: flex;
       position: relative;
       width: 230px;
-      height: 230px;
-      top: -52rem;
+      height: 138px;
+      top: -48.5rem;
       left: 5rem;
       padding: 0;
     }

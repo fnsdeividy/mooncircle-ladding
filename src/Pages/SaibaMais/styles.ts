@@ -64,14 +64,14 @@ export const Container = styled.div`
       height: 200px;
       display: flex;
       position: relative;
-      top: -23rem;
+      top: -18rem;
       left: 1rem;
     }
 
     .Content {
       display: flex;
       position: relative;
-      top: -24rem;
+      top: -18rem;
       left: -23rem;
       flex-direction: column;
       align-items: center;

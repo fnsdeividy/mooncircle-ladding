@@ -3,7 +3,7 @@ const mobileBreakpoint = '600px'
 export const ContainerParcerias = styled.div`
   display: flex;
   position: relative;
-  top: 8rem;
+  top: 4rem;
   left: -8rem;
   align-items: center;
   justify-content: center;
@@ -191,7 +191,7 @@ export const ContainerParcerias = styled.div`
   @media (max-width: ${mobileBreakpoint}) {
     display: flex;
     position: relative;
-    top: 58rem;
+    top: 65rem;
     left: -0.5rem;
     align-items: center;
     justify-content: center;
