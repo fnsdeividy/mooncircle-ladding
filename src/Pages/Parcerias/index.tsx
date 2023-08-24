@@ -10,7 +10,11 @@ import {
   InputNomeInstagram,
 } from '../../components/Input'
 
-const Parcerias = () => {
+interface propsParcerias {
+  id?: string
+}
+
+const Parcerias = ({ id }: propsParcerias) => {
   const [establishmentName, setEstablishmentName] = useState('')
   const [instagramUsername, setInstagramUsername] = useState('')
 
@@ -29,7 +33,7 @@ const Parcerias = () => {
   }
 
   return (
-    <ContainerParcerias>
+    <ContainerParcerias id={id}>
       <div className="ContainerText">
         <h1 className="TextParceiros">Nossos Parceiros</h1>
         <p className="TextP">

@@ -1,11 +1,16 @@
 import React from 'react'
 import { Container } from './styles'
 import Arte from '../../assets/Arte.png'
-const SaibaMais = () => {
+
+interface propsSaibamais {
+  id?: string
+}
+
+const SaibaMais = ({ id }: propsSaibamais) => {
   return (
     <Container>
       <img src={Arte} alt="" />
-      <div className="Content">
+      <div id={id} className="Content">
         <div className="Frame">
           <h1>Vamos nos conhecer melhor?</h1>
           <p>

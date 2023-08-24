@@ -1,31 +1,45 @@
-import React from 'react'
-import { AppContainer, LinksContainer, NavLink, NavMenu } from './styles'
+import React, { FunctionComponent } from 'react'
+import {
+  AppContainer,
+  LinksContainer,
+  LogoImage,
+  MoonImage,
+  NavLink,
+  NavMenu,
+} from './styles'
 import Moon from '../../assets/MoonCircle.png'
 import Logo from '../../assets/Logo.png'
-const NavBar = () => {
+
+interface NavBarProps {
+  scrollToSection: (sectionId: string) => void
+}
+
+const NavBar: FunctionComponent<NavBarProps> = ({ scrollToSection }) => {
   return (
     <AppContainer>
       <nav>
         <NavMenu>
-          <img className="Moon" src={Moon} alt="" />
+          <MoonImage src={Moon} alt="Moon" />
           <LinksContainer>
             <NavLink>
-              <a className="Home" href="/">
-                Home
-              </a>
-            </NavLink>
-            <NavLink>
-              <a className="saibamais" href="/saiba-mais">
+              <button onClick={() => scrollToSection('home')}>
+                <p className="Home">Home</p>
+              </button>
+              <button
+                className="saibamais"
+                onClick={() => scrollToSection('saiba-mais')}
+              >
                 Saiba Mais
-              </a>
-            </NavLink>
-            <NavLink>
-              <a className="parcerias" href="/parcerias">
+              </button>
+              <button
+                className="parcerias"
+                onClick={() => scrollToSection('parcerias')}
+              >
                 Parcerias
-              </a>
+              </button>
             </NavLink>
           </LinksContainer>
-          <img className="Logo" src={Logo} alt="" />
+          <LogoImage src={Logo} alt="Logo" />
         </NavMenu>
       </nav>
     </AppContainer>

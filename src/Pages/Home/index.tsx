@@ -4,7 +4,12 @@ import { Container } from './styles'
 import { Input, PhoneNumberInput } from '../../components/Input'
 import LogoHome from '../../assets/LogoHome.png'
 import { Button } from '../../components/Button'
-const Home = () => {
+
+interface propsHome {
+  id?: string
+}
+
+const Home = ({ id }: propsHome) => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [whatsapp, setWhatsapp] = useState('')
@@ -29,7 +34,7 @@ const Home = () => {
 
   return (
     <Container>
-      <div className="Math">
+      <div id={id} className="Math">
         <h1>Bem-vinda ao Moon Circle.</h1>
         <h4>O seu próximo match é aqui!</h4>
         <p>
