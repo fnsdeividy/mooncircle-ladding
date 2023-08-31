@@ -13,8 +13,8 @@ export const Container = styled.div`
   .Logo-Home {
     display: flex;
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     top: -40rem;
     left: 30rem;
     padding: 0;
@@ -25,7 +25,7 @@ export const Container = styled.div`
     h1 {
       width: 269px;
       height: 23px;
-      font-family: Museo Sans;
+      font-family: 'Museo Sans' sans-serif;
       font-size: 20px;
       font-weight: 600;
       line-height: 26px;
@@ -36,7 +36,7 @@ export const Container = styled.div`
     h4 {
       width: 527px;
       height: 152px;
-      font-family: Museo Sans;
+      font-family: 'Museo Sans' sans-serif;
       font-size: 64px;
       font-weight: 600;
       line-height: 76px;
@@ -47,7 +47,7 @@ export const Container = styled.div`
     p {
       width: 527px;
       height: 120px;
-      font-family: Museo Sans;
+      font-family: 'Museo Sans' sans-serif;
       font-size: 16px;
       font-weight: 600;
       line-height: 24px;
@@ -84,11 +84,11 @@ export const Container = styled.div`
     .Logo-Home {
       display: flex;
       position: relative;
-      width: 230px;
-      height: 138px;
-      top: -48.5rem;
+      width: 200px;
+      height: 118px;
+      top: -50.5rem;
       left: 5rem;
-      padding: 0;
+      padding: 0 1rem;
     }
 
     .Math {
@@ -96,7 +96,7 @@ export const Container = styled.div`
       h1 {
         width: 269px;
         height: 23px;
-        font-family: Museo Sans;
+        font-family: 'Museo Sans' sans-serif;
         font-size: 20px;
         font-weight: 600;
         line-height: 26px;
@@ -105,13 +105,13 @@ export const Container = styled.div`
         color: #ffffff;
         position: relative;
         display: flex;
-        top: 6.5rem;
+        top: 5rem;
         left: 5.5rem;
       }
       h4 {
         width: 226px;
         height: 73px;
-        font-family: Museo Sans;
+        font-family: 'Museo Sans' sans-serif;
         font-size: 33px;
         font-weight: 600;
         line-height: 32px;
@@ -122,11 +122,12 @@ export const Container = styled.div`
         display: flex;
         top: 7rem;
         left: 6rem;
+        margin-bottom: 3rem;
       }
       p {
         width: 272px;
         height: 85px;
-        font-family: Museo Sans;
+        font-family: 'Museo Sans' sans-serif;
         font-size: 16px;
         font-weight: 600;
         line-height: 24px;
