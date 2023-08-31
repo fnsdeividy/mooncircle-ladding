@@ -19,7 +19,7 @@ export const ContainerParcerias = styled.div`
     top: -70rem;
     left: 119rem;
     width: 17pc;
-    font-family: Museo Sans;
+    font-family: 'Museo Sans' sans-serif;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
@@ -30,7 +30,7 @@ export const ContainerParcerias = styled.div`
   .TextP {
     width: 390px;
     height: 24px;
-    font-family: Museo Sans;
+    font-family: 'Museo Sans' sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -76,7 +76,7 @@ export const ContainerParcerias = styled.div`
     h1 {
       width: 481px;
       height: 77px;
-      font-family: Museo Sans;
+      font-family: 'Museo Sans' sans-serif;
       font-size: 32px;
       font-weight: 600;
       line-height: 44px;
@@ -125,22 +125,18 @@ export const ContainerParcerias = styled.div`
     button {
       width: 223px;
       height: 50px;
-      padding: 8px 0px 8px 43px;
       border-radius: 100px;
       gap: 10px;
       background: #641978;
       box-shadow: 0px 10px 100px 0px #00000040;
-      p {
-        width: 154px;
-        height: 32px;
-        font-family: Museo Sans;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 32px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #ffffff;
-      }
+      font-family: 'Museo Sans' sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #ffffff;
+
       .ImageGrafismo {
         width: 470px;
         height: 470px;
@@ -159,7 +155,7 @@ export const ContainerParcerias = styled.div`
     .containerprojetos {
       .Parceiroh3 {
         width: 500px;
-        font-family: Museo Sans;
+        font-family: 'Museo Sans' sans-serif;
         font-size: 46px;
         font-weight: 600;
         line-height: 44px;
@@ -210,7 +206,7 @@ export const ContainerParcerias = styled.div`
       top: -69rem;
       left: 80.7rem;
       width: 21pc;
-      font-family: Museo Sans;
+      font-family: 'Museo Sans' sans-serif;
       font-size: 39px;
       font-weight: 600;
       line-height: 44px;
@@ -221,7 +217,7 @@ export const ContainerParcerias = styled.div`
     .TextP {
       width: 313px;
       height: 24px;
-      font-family: Museo Sans;
+      font-family: 'Museo Sans' sans-serif;
       font-size: 18px;
       font-weight: 400;
       line-height: 24px;
@@ -269,7 +265,7 @@ export const ContainerParcerias = styled.div`
       h1 {
         width: 304px;
         height: 77px;
-        font-family: Museo Sans;
+        font-family: 'Museo Sans' sans-serif;
         font-size: 26px;
         font-weight: 600;
         line-height: 44px;
@@ -329,7 +325,7 @@ export const ContainerParcerias = styled.div`
         p {
           width: 154px;
           height: 32px;
-          font-family: Museo Sans;
+          font-family: 'Museo Sans' sans-serif;
           font-size: 20px;
           font-weight: 600;
           line-height: 32px;
@@ -353,7 +349,7 @@ export const ContainerParcerias = styled.div`
         .Parceiroh3 {
           width: 424px;
           height: 2px;
-          font-family: Museo Sans;
+          font-family: 'Museo Sans' sans-serif;
           font-size: 40px;
           font-weight: 600;
           line-height: 55px;

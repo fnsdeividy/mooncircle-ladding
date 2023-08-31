@@ -43,11 +43,13 @@ export const Container = styled.div`
       font-size: 24px;
       font-weight: 600;
       margin-bottom: 1rem;
+      font-family: 'Museo Sans' sans-serif;
     }
 
     p {
       font-size: 16px;
       line-height: 1.5;
+      font-family: 'Museo Sans' sans-serif;
     }
   }
 
@@ -64,7 +66,7 @@ export const Container = styled.div`
       height: 200px;
       display: flex;
       position: relative;
-      top: -18rem;
+      top: -17rem;
       left: 1rem;
     }
 
@@ -94,11 +96,13 @@ export const Container = styled.div`
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 1rem;
+        font-family: 'Museo Sans' sans-serif;
       }
 
       p {
         font-size: 16px;
         line-height: 1.5;
+        font-family: 'Museo Sans' sans-serif;
       }
     }
   }

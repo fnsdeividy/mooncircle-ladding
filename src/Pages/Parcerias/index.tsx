@@ -72,7 +72,7 @@ const Parcerias = ({ id }: propsParcerias) => {
         </div>
         <div className="ButtonForm">
           <button>
-            <p>Enviar indicação</p>
+            Enviar indicação
             <img className="ImageGrafismo" src={Grafismo} alt="" />
           </button>
         </div>
